@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madhuri's Portfolio</title>
+
+<head>
+   <style>
+    *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+background:#1e293b;
+padding:15px 50px;
+z-index:1000;
+}
+nav{
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    color:#38bdf8;
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav ul{
+    margin-left:auto;
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav{
+display:flex;
+<stylejustify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#38bdf8;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:50px;
+}
+
+.hero-text h1{
+font-size:40px;
+}
+
+.hero-text h2{
+font-size:60px;
+color:#38bdf8;
+}
+
+.hero-text p{
+font-size:22px;
+margin:20px 0;
+}
+
+.btn{
+padding:12px 25px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:10px;
+}
+
+.hero-image img{
+width:320px;
+height:320px;
+border-radius:50%;
+border:5px solid #38bdf8;
+object-fit:cover;
+animation:float 3s infinite;
+}
+
+@keyframes float{
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0);
+}
+}
+
+.section{
+padding:50px 10%;
+text-align:center;
+}
+
+.section h2{
+font-size:40px;
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+margin:20px auto;
+border-radius:15px;
+max-width:700px;
+}
+
+.skills-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skills-container span{
+background:#38bdf8;
+padding:10px 20px;
+border-radius:20px;
+font-weight:bold;
+}
+
+.project-card{
+background:#1e293b;
+padding:20px;
+margin:20px;
+border-radius:15px;
+transition:0.4s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
+
+.social a{
+color:white;
+font-size:35px;
+margin:10px;
+}
+
+footer{
+background:#1e293b;
+text-align:center;
+padding:20px;
+}
+.achievement-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.achievement-card{
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.4s;
+}
+
+.achievement-card:hover{
+    transform: translateY(-10px);
+}
+
+.achievement-card h3{
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+</style>
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2 class="logo">Portfolio</h2>
+
+
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<div class="hero-text">
+<h1>Hello, I'm</h1>
+<h2>Upputuri Madhuri</h2>
+<p>Web Developer | Student | Programmer</p>
+<a href="#contact" class="btn">Hire Me</a>
+</div>
+
+<div class="hero-image">
+<img src="https://img.freepik.com/premium-photo/portrait-professional-woman-suit-business-woman-standing-office-generative-ai_868783-4132.jpg   " alt="Profile">
+</div>
+</section>
+
+<section id="about" class="section">
+<h2>About Me</h2>
+
+<p>
+I am a Computer Science student passionate about programming and technology. My goal is to become a Software Engineer and build innovative solutions that solve real-world problems. I continuously improve my skills through learning, coding, and developing projects.
+</p>
+</section>
+
+<section id="education" class="section">
+<h2>Education</h2>
+
+<div class="card">
+<h3>B.Tech/Artificial Intelligence And Data Science</h3>
+<p>LakiReddy Bali Reddy college of Engineering,mylavaram</p>
+<p>Year : third</p>
+<p>CGPA : 9.2</p>
+</div>
+
+<div class="card">
+<h3>Intermediate</h3>
+<p>SR Junior college/Guntur</p>
+<p>Percentage : 96.6%</p>
+</div>
+</section>
+
+<section id="skills" class="section">
+<h2>Skills</h2>
+
+<div class="skills-container">
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>C</span>
+<span>C++</span>
+<span>Python</span>
+<span>GitHub</span>
+</div>
+</section>
+<section id="achievements" class="section">
+
+<h2>Achievements</h2>
+
+<div class="achievement-container">
+
+<div class="achievement-card">
+<h3>Achievement 1</h3>
+<p>Secure a consolation prize in my department Hackthon</p>
+</div>
+
+<div class="achievement-card">
+<h3>Achievement 2</h3>
+<p>Secure a Third prize in my Colleg Lakshya Event.</p>
+</div>
+
+<div class="achievement-card">
+<h3>Achievement 3</h3>
+<p>Secure a participation certificate in NRI college Fest.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects" class="section">
+<h2>Projects</h2>
+
+<div class="project-card">
+<h3>Library Management System</h3>
+<p>Using c</p>
+</div>
+
+<div class="project-card">
+<h3>Digital Clock</h3>
+<p>Real Time Clock using JavaScript</p>
+</div>
+
+<div class="project-card">
+<h3>FD Calculator</h3>
+<p>Financial Calculator using HTML CSS JS</p>
+</div>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact Me</h2>
+
+<p>Email : upputurimadhuri897@gmail.com</p>
+
+<div class="social">
+<a href="www.linkedin.com/in/upputuri-madhuri-499087335"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/upputurimadhuri897-hue"><i class="fab fa-github"></i></a>
+</div>
+</section>
+
+<footer>
+<p>© 2026 upputurimadhuri@gmail.com. All Rights Reserved.</p>
+</footer>
+
+<script>
+    // Welcome Message
+window.onload = function () {
+    console.log("Welcome to Madhuri's Portfolio Website");
+};
+
+// Navbar Active Link on Scroll
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav ul li a");
+
+window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach((section) => {
+        const sectionTop = section.offsetTop - 100;
+
+        if (pageYOffset >= sectionTop) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach((link) => {
+        link.style.color = "white";
+
+        if (link.getAttribute("href") === "#" + current) {
+            link.style.color = "#38bdf8";
+        }
+    });
+});
+
+// Section Fade-in Animation
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+        }
+    });
+});
+
+document.querySelectorAll(".section").forEach((section) => {
+    section.style.opacity = "0";
+    section.style.transform = "translateY(50px)";
+    section.style.transition = "all 1s ease";
+
+    observer.observe(section);
+});
+
+// Hire Me Button Alert
+const hireBtn = document.querySelector(".btn");
+
+hireBtn.addEventListener("click", () => {
+    alert("Thank you for visiting my portfolio!");
+});
+</script>
+
+</body>
+</html>
